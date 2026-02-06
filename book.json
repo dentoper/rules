@@ -1,0 +1,44 @@
+{
+  "title": "Wiki Minecraft сервера",
+  "description": "Полная документация для игроков нашего Minecraft сервера",
+  "author": "Администрация сервера",
+  "language": "ru",
+  "gitbook": "3.2.3",
+  "root": ".",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "edit-link",
+    "github",
+    "search-pro",
+    "expandable-chapters",
+    "back-to-top-button",
+    "copy-code-button",
+    "sharing-plus",
+    "splitter",
+    "-lunr",
+    "-search"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/YOUR-USERNAME/YOUR-REPO/edit/main",
+      "label": "Редактировать страницу"
+    },
+    "github": {
+      "url": "https://github.com/YOUR-USERNAME/YOUR-REPO"
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "all": ["vk", "telegram"]
+    }
+  },
+  "links": {
+    "sidebar": {
+      "Discord сервер": "https://discord.gg/YOUR-INVITE",
+      "Наш сайт": "https://yourserver.com"
+    }
+  }
+}
